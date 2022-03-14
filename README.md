@@ -6,7 +6,7 @@ The source code for TeXlinter
 
 pip install auto-py-to-exe
 
-# Then to run it, execute the following in the terminal:
+## Then to run it, execute the following in the terminal:
 auto-py-to-exe
 
 ## This will bring up the following window
