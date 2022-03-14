@@ -277,10 +277,8 @@ def main():
         here = pathlib.Path(__file__).parent
         if os_name == "Windows":
             rules = open(str(here.absolute()) + "\\rules.JSON")
-        elif os_name == "Linux":
+        elif os_name == "Linux" or os_name == "Darwin":
             rules = open(str(here.home()) + "/.local/bin/rules.JSON")
-        elif os_name == "Darwin":
-            rules = open(str(here.absolute()) + "/rules.JSON")
         data = json.loads(rules.read())
         rules.close()
     if args.file.lower().endswith(('.tex', '.bib', 'tikz')):

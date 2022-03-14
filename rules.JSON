@@ -1,0 +1,30 @@
+{   
+    "indented_begining_rules": {
+        "rule1": "\\begin"
+    },
+    "indented_ending_rules": {
+        "rule1": "\\end"
+    },
+    "comment_rules": {
+        "rule1": "%"
+    },
+    "exlude_rules": {
+        "rule1" : "\\title",
+        "rule2": "\\documentclass",
+        "rule3": "\\usepackage",
+        "rule4": "\\author",
+        "rule5": "\\",
+        "rule6": "\\%"
+    },
+    "newline_rules": {
+        "rule1": "."
+    },
+    "newlines_before_rules": {
+        "rule1": "\\section",
+        "rule2": "\\chapter"
+    },
+    "configureable_rules": {
+        "newline_counter": 2,
+        "newline_bool": true
+    }
+}
