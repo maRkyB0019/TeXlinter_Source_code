@@ -13,4 +13,5 @@ auto-py-to-exe
 
 First you need to add the script.\
 Chose One Directory, Console Based\
-Under Settings, you can chose where you want the output folder to be located
+Under Settings, you can chose where you want the output folder to be located\
+Then just hit the convert py to .exe and you will be done
