@@ -24,3 +24,30 @@ export PATH="$Path-to-the-linter-folder:$PATH"
 ## On Windows
 1. Start cmd as administrator
 2. setx /M PATH "%PATH%;your-new-path-to-TeXlinter-folder"
+
+
+## How to use the TeXlinter
+
+## On Windows
+TeXlinter.exe "your LaTex document"
+## If you have your own rules
+TeXlinter.exe "your LaTex document" --rules <your own rule .json or .yaml>
+## If you want to see what have changed
+TeXlinter.exe "your LaTex document" --header
+## If you need a reminder
+TeXlinter.exe help
+
+## If you want to run a test and see what the linter changes
+## Run the following
+TeXlinter.exe --header "path to TeXlinter folder/test.tex"
+  
+## On Linux/macOS X
+TeXlinter <”your LaTex document”>
+## If you have your own rules
+TeXlinter <”your LaTex document”> –rules <”your own rule .json or .yaml”>
+## If you want to see what changes have happend
+TeXlinter <”your LaTex document”> –header
+## If you want to get help how to run the application
+TeXlinter -h
+## If you want to run a test too see how the application runs and do
+TeXlinter <”path to where you have installed pipx/test.tex”> –header
