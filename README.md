@@ -3,7 +3,7 @@ The source code for TeXlinter
 
 # *!!Exclaimer!!*
 This product have not been tested on macOS X, if it could not find the default config file.\
-Use the obsolete path to the default config file which is in the folder you downloaded
+Use the Absolute path to the default config file which is in the folder you downloaded
 
 ## If you want to make an executable for Windows/Linux and or macOS X on your own follow the instructions bellow
 ### Make sure you have python3 installed to follow these instructions
