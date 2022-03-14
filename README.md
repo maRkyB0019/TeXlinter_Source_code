@@ -8,11 +8,11 @@ The source code for TeXlinter
 1. git clone https://github.com/brentvollebregt/auto-py-to-exe.git
 2. cd auto-py-to-exe
 3. python3 setup.py install
-# Then to run it, execute the following in the terminal:
-auto-py-to-exe
+
 
 ## Windows
 pip install auto-py-to-exe
+
 # Then to run it, execute the following in the terminal:
 auto-py-to-exe
 
