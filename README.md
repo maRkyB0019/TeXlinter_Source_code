@@ -2,7 +2,7 @@
 The source code for TeXlinter
 
 ## If you want to make an executable for Windows/Linux and or macOS X on your own follow the instructions bellow
-### Make sure you have python3
+### Make sure you have python3 installed
 1. git clone https://github.com/brentvollebregt/auto-py-to-exe.git
 2. cd auto-py-to-exe
 3. python3 setup.py install
@@ -14,4 +14,7 @@ auto-py-to-exe
 First you need to add the script.\
 Chose One Directory, Console Based\
 Under Settings, you can chose where you want the output folder to be located\
-Then just hit the convert py to .exe and you will be done
+Then just hit the Convert py to .exe button and you will be done
+
+# If you want to use the linter from anywhere outside the executable folder you just created follow the instructions bellow
+
