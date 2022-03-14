@@ -19,3 +19,7 @@ Then just hit the Convert py to .exe button and you will be done
 ## If you want to use the linter from anywhere outside the executable folder you just created follow the instructions bellow
 ## On Linux and macOS X
 export PATH="$Path-to-the-linter-folder:$PATH"
+
+## On Windows
+1. Start cmd as administrator
+2. setx /M PATH "%PATH%;your-new-path-to-TeXlinter-folder"
