@@ -17,5 +17,5 @@ Under Settings, you can chose where you want the output folder to be located\
 Then just hit the Convert py to .exe button and you will be done
 
 ## If you want to use the linter from anywhere outside the executable folder you just created follow the instructions bellow
-## On Linux
+## On Linux and macOS X
 export PATH="$Path-to-the-linter-folder:$PATH"
