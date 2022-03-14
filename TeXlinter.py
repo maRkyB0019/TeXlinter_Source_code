@@ -8,7 +8,7 @@ import pathlib
 import platform
 import argparse
 
-def texLinter(user_input, rules, header = False):
+def tex_Linter(user_input, rules, header = False):
     index = user_input.find('.')
     indent_bool = False
     indent_begining_rules, indent_ending_rules, comment_rules, exclude_rules, newline_rules, configureable_rules, newlines_before = get_rules(rules)
@@ -283,9 +283,9 @@ def main():
         rules.close()
     if args.file.lower().endswith(('.tex', '.bib', 'tikz')):
         if args.header == True:
-            texLinter(args.file, data, args.header)
+            tex_Linter(args.file, data, args.header)
         else:
-            texLinter(args.file, data)
+            tex_Linter(args.file, data)
     else:
         print("Invalid input format. Only accepting .tex, .bib or .tikz")
         sys.exit()
