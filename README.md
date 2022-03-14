@@ -11,8 +11,6 @@ auto-py-to-exe
 ## This will bring up the following window
 ![bild](https://user-images.githubusercontent.com/99668019/158139599-f088a51e-0aec-4a39-bfd2-a7a72f8279ac.png)
 
-First you need to add the script.
-
-Chose One Directory, Console Based
-
+First you need to add the script.\
+Chose One Directory, Console Based\
 Under Settings, you can chose where you want the output folder to be located
