@@ -11,6 +11,10 @@ The source code for TeXlinter
 # Then to run it, execute the following in the terminal:
 auto-py-to-exe
 
+## Windows
+pip install auto-py-to-exe
+# Then to run it, execute the following in the terminal:
+auto-py-to-exe
 
 ## This will bring up the following window
 ![bild](https://user-images.githubusercontent.com/99668019/158139599-f088a51e-0aec-4a39-bfd2-a7a72f8279ac.png)
