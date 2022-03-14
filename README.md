@@ -1,6 +1,8 @@
 # TeXlinter_Source_code
 The source code for TeXlinter
 
+**!!Exclaimer!!**
+
 ## If you want to make an executable for Windows/Linux and or macOS X on your own follow the instructions bellow
 ### Make sure you have python3 installed to follow these instructions
 
