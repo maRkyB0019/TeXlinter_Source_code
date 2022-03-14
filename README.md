@@ -1,7 +1,7 @@
 # TeXlinter_Source_code
 The source code for TeXlinter
 
-# If you want to make an executable for macOS X on your own follow the instructions bellow
+## If you want to make an executable for macOS X on your own follow the instructions bellow
 Make sure you have python3
 1. git clone https://github.com/brentvollebregt/auto-py-to-exe.git
 2. cd auto-py-to-exe
