@@ -1,5 +1,5 @@
 # TeXlinter_Source_code
-The source code for TeXlinter
+The source code for TeXlinter written in Python3
 
 # *!!Exclaimer!!*
 This product have not been tested on macOS X, if it could not find the default config file.\
